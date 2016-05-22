@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('top-bg.jpg');
+}
+
+#menu_whole {
+    width: auto;
+    height: 50px;
+}
+
+#top {
+    height: 955px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#menu {
+    padding: 10px;
+    float: right;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu li a {
+    color: #fff;
+    font-family: Century Gothic;
+    font-size: 1.4em;
+}
+
+#title {
+    color: #fff;
+    font-family: Century Gothic;
+    font-size: 1.5em;
+    float: left;
+    padding: 10px;
+}
+
+._clr_one {
+    color: #09cff6;
+    background: transparent;
+}
+
+#menu li a:hover {
+    transition: all 200ms ease;
+    color: #09cff6;
+}
+
+#lrg-title {
+    font-family: Century Gothic;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20%;
+}
+
+#end {
+    background-color: #fff;
+    height: 150px;
+    width: auto;
+    font-family: Century Gothic;
+    text-align: center;
+}
+
+#end-head {
+    color: #000;  
+    padding: 20px; 
+}
+
+._name_ {
+    color: #09cff6;
+    background: transparent;
+}
+
+.vs_code {
+    color: #09cff6;
+    background: transparent;
+}
+
+#built_ {
+    padding: 20px;
+}
+
+.position {
+    transition: all 500ms ease;
+    background-color: #000;
+    position: fixed;
+    height: 50px;
+    width: auto;
+}
+
+#project {
+    height: 955px;
+    width: auto;
+}
+
+.position #menu {
+    padding-left: 60.6%;
+}
+

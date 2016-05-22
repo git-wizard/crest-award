@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chemical Discharge - Crest Award Project</title>
+<link rel="stylesheet" href="stylesheet.css">
+<script src="js\jquery-1.12.4.min.js"></script>
+</head>
+<body>
+<!--MENU TOP-->
+<section id="top">
+<div id="menu_whole">
+<h1 id="title">Chemical<mark class="_clr_one">Discharge</mark></h1>
+<ul id="menu">
+    <li><a class="clr_one" style="color:#09cff6;" href="#">Main</a></li>
+    <li><a class="clr_two" href="#">Project</a></li>
+    <li><a class="clr_three" href="#">Work</a></li>
+    <li><a class="clr_four" href="#">Conclusion</a></li>
+    <li><a class="clr_five" href="#">About</a></li>
+</ul>
+</div>
+
+<h1 id="lrg-title">Chemical<mark class="_clr_one">Discharge</mark></h1>
+</section>
+
+<section id="project">
+<div id="_box_one">
+<h1 id="_page_two_title">###Project</h1>
+<p id="_par"></p>
+
+<img src="images\lemon-battery.jpg"/>
+
+</div>
+</section>
+
+<!--PAGE END
+<section id="end">
+<h1 id="end-head">This website is maintained by: <mark class="_name_">Git-Wizard</mark>.</h1>
+<h1 id="built_">This website was built by: <mark class="_name_">Git-Wizard</mark> using <mark class="vs_code">Visual Studio Code</mark>.</h1>
+</section> -->
+<!--JQUERY-->
+<script>
+    
+$(document).ready(function() {
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+
+        if (scroll > 0) {
+            $("#menu_whole").addClass("position");
+            $('#menu li a').removeAttr('style');
+        } else {
+            $("#menu_whole").removeClass("position");
+            $('.clr_one').attr('style', 'color: #09cff6');
+        }   
+    });
+});
+    
+</script>
+</body>
+</html>
